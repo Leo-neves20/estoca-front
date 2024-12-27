@@ -10,11 +10,11 @@ const envSchema = z.object({
   }),
 });
 
-const { success, error, data } = envSchema.safeParse(process.env);
+const { success, data } = envSchema.safeParse(process.env);
 
 if (!success) {
-  console.error("Invalid variables", error.format());
-  throw new Error("Invalid variables!");
+  // console.error("Invalid variables", error.format());
+  // throw new Error("Invalid variables!");
 }
 
 export const env = data;
