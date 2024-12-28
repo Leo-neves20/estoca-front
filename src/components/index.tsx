@@ -1,1 +1,1 @@
-export { CustomInputBase, CustomInputPassword } from "./_input";
+export { CustomInputBase } from './_input';

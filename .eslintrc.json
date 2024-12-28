@@ -1,9 +1,0 @@
-{
-  "rules": {
-    "react/display-name": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      { "varsIgnorePattern": "as const$" }
-    ]
-  }
-}
