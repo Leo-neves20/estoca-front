@@ -1,3 +1,16 @@
+'use client';
+import { CustomInputBase } from '@/components';
+
 export default function Home() {
-  return <div>Olá, Mundo!</div>;
+  return (
+    <>
+      <CustomInputBase
+        label="Nome do campo"
+        width={300}
+        isError
+        errorMessage="Mensagem de erro"
+        placeholder="Digete um placeholder"
+      />
+    </>
+  );
 }
